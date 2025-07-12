@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Landing Page</title><br>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Product Landing Page</h1><br>
+    <p>Box Model • Basic Layout • Advanced HTML Forms</p><br>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to CodeBoost</h2><br>
+      <p>CodeBoost is your gateway to mastering modern web development. Our fictional product combines simplicity and power to help you build better websites, faster.</p>     <a href="#signup" class="cta-button">Start Learning Now</a>
+    </section>
+
+    <section id="signup" class="form-section">
+      <h2>Sign Up for Early Access</h2><br>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder /><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder /><br>
+
+        <label for="interest">What are you interested in?</label>
+        <select id="interest" name="interest"><br>
+          <option value="frontend">Frontend Development</option>
+          <option value="backend">Backend Development</option>
+          <option value="fullstack">Full-Stack</option>
+        </select><br>
+
+        <label>
+          <input type="checkbox" name="updates" />
+          Send me coding tips and updates by email<br>
+        </label>
+
+        <input type="submit" value="Subscribe" class="submit-btn" /><br>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CodeBoost. All rights reserved.</p>
+  </footer>
+</body>
+</html>

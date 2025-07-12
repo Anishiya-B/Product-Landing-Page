@@ -1,0 +1,124 @@
+/* Basic Reset and Box Model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f6fc;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #1e88e5;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  border: 3px solid #1565c0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.intro h2 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #43a047;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #2e7d32;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #fff;
+  border: 2px dashed #90caf9;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form-section h2 {
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background-color: #1976d2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #1565c0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #555;
+}
